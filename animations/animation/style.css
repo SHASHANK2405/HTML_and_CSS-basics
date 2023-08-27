@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    height: 215px;
+    background-color: yellow;
+    border: 2px solid red;
+}
+.box{
+    border: 2px solid green;
+    width: 212px;
+    height: 212px;
+    background-color: aqua;
+
+    animation-name: shashank;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    /* animation-direction: alternate; */
+    animation-fill-mode: backwards;
+}
+
+@keyframes shashank{
+    0%{
+        width:212px;
+        background-color:aqua;
+    }
+    30%{  
+        width:35%;
+        background-color:purple;
+    }
+    65%{
+        width:70%;
+        background-color: blue;
+    }
+    100%{
+        width:100%;
+        background-color: violet;
+    }
+}
+/* @keyframes shashank {
+    from{
+        width: 212px;
+    }
+    to{
+        width: 800px;
+    }
+} */

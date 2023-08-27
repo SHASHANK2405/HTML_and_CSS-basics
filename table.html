@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,tr,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 10px;
+    }
+</style>
+<body>
+    <table>
+        <colgroup>
+            <!-- <col span="1" style="background-color: aqua;">
+            <col span="1" style="background-color: purple;">
+            <col span="1" style="background-color: yellow;">
+            <col span="1" style="background-color: blue;"> -->
+
+            <!-- <col span="1">
+            <col span="2" style="background-color: brown;"> -->
+
+            <!-- <col span="1">
+            <col span="1" style="background-color: rgb(236, 39, 39);">
+            <col span="1">
+            <col span="1" style="background-color: rgb(230, 35, 35);"> -->
+
+            <!-- <col span="1">                                   <--it is used to hide the specific column -->
+            <!-- <col span="1" style="visibility: collapse;">        -->
+        </colgroup>
+        <tr>
+            <td rowspan="2">state of health</td>
+            <td colspan="2">fassting value</td>
+            <td>after eating</td>
+        </tr>
+        <tr>
+            <td>minimum</td>
+            <td>maximum</td>
+            <td>after eating</td>
+        </tr>
+        <tr>
+            <td>healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>140</td>
+        </tr>
+        <tr>
+            <td>diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140-200</td>
+        </tr>
+        <tr>
+            <td>diabetes</td>
+            <td>more than 120</td>
+            <td>N/A</td>
+            <td>more than 200</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.box3{
+    max-height: 100px;
+    max-width: 500px;
+    border: 10px, solid , black;
+    overflow: scroll;
+}
+.mydiv{
+    height: 50px;
+    border: 1px, solid , black;
+}

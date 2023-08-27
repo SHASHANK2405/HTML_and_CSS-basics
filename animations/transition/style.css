@@ -1,0 +1,31 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
+}
+.box{
+    border: 2px solid orange;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    /* transition: 1s; */
+    /* transition-property: background-color;
+    transition-delay: 5s;                     kitni der baad transition start hoga */
+    /* transition: background-color 1s ease 3s; */
+    /* transition: all 200ms ease 1s; */
+    /* transition: transform 3s ease;             ease in means starting me slow baad me fast */
+    /* transition: transform 3s cubic-bezier(1 , -0.89 ,0 ,1.68); */
+
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 1s;
+}
+.box:hover{
+    background-color: brown;
+    /* transform: rotate(45deg); */
+    transform: translate(500px) scale(2) rotate(360deg);
+} 
